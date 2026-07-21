@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio Photographe - Accueil</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-gray-100 text-gray-900 font-sans">
+    <header class="bg-white shadow-sm py-4">
+        <nav class="container mx-auto px-4 flex justify-between items-center">
+            <a href="index.html" class="text-2xl font-bold text-gray-800">Photographe</a>
+            <ul class="flex space-x-6">
+                <li><a href="index.html" class="text-gray-600 hover:text-indigo-600 transition-colors duration-300">Accueil</a></li>
+                <li><a href="about.html" class="text-gray-600 hover:text-indigo-600 transition-colors duration-300">À Propos</a></li>
+                <li><a href="contact.html" class="text-gray-600 hover:text-indigo-600 transition-colors duration-300">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main class="container mx-auto px-4 py-8">
+        <section class="hero text-center py-16 bg-white rounded-lg shadow-md mb-8">
+            <h1 class="text-5xl font-extrabold text-gray-800 mb-4">Capturer l'Émotion, Révéler la Beauté</h1>
+            <p class="text-xl text-gray-600 mb-8">Je suis un photographe passionné, dédié à immortaliser vos moments précieux.</p>
+            <a href="#portfolio" class="bg-indigo-600 text-white px-8 py-3 rounded-full text-lg hover:bg-indigo-700 transition-colors duration-300">Voir le Portfolio</a>
+        </section>
+
+        <section id="portfolio" class="py-8">
+            <h2 class="text-4xl font-bold text-center mb-10 text-gray-800">Mon Portfolio</h2>
+            <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6">
+                <div class="portfolio-item bg-white rounded-lg shadow-lg overflow-hidden transform hover:scale-105 transition-transform duration-300">
+                    <img src="https://images.unsplash.com/photo-1510915228340-a1ee625e1a26?auto=format&fit=crop&w=400&h=300&q=80" alt="Photo de paysage" class="w-full h-48 object-cover">
+                    <div class="p-4">
+                        <h3 class="font-semibold text-lg text-gray-800">Paysages Époustouflants</h3>
+                        <p class="text-gray-600 text-sm">La grandeur de la nature capturée.</p>
+                    </div>
+                </div>
+                <div class="portfolio-item bg-white rounded-lg shadow-lg overflow-hidden transform hover:scale-105 transition-transform duration-300">
+                    <img src="https://images.unsplash.com/photo-1507003211169-e6950c3d6106?auto=format&fit=crop&w=400&h=300&q=80" alt="Photo de portrait" class="w-full h-48 object-cover">
+                    <div class="p-4">
+                        <h3 class="font-semibold text-lg text-gray-800">Portraits Expressifs</h3>
+                        <p class="text-gray-600 text-sm">Révéler la personnalité de chacun.</p>
+                    </div>
+                </div>
+                <div class="portfolio-item bg-white rounded-lg shadow-lg overflow-hidden transform hover:scale-105 transition-transform duration-300">
+                    <img src="https://images.unsplash.com/photo-1447752875215-b2761acb3c5d?auto=format&fit=crop&w=400&h=300&q=80" alt="Photo de faune" class="w-full h-48 object-cover">
+                    <div class="p-4">
+                        <h3 class="font-semibold text-lg text-gray-800">Faune Sauvage</h3>
+                        <p class="text-gray-600 text-sm">La beauté du règne animal.</p>
+                    </div>
+                </div>
+                <div class="portfolio-item bg-white rounded-lg shadow-lg overflow-hidden transform hover:scale-105 transition-transform duration-300">
+                    <img src="https://images.unsplash.com/photo-1549476478-f7b57dd8d01d?auto=format&fit=crop&w=400&h=300&q=80" alt="Photo de mariage" class="w-full h-48 object-cover">
+                    <div class="p-4">
+                        <h3 class="font-semibold text-lg text-gray-800">Mariages Inoubliables</h3>
+                        <p class="text-gray-600 text-sm">Des souvenirs pour la vie.</p>
+                    </div>
+                </div>
+                <div class="portfolio-item bg-white rounded-lg shadow-lg overflow-hidden transform hover:scale-105 transition-transform duration-300">
+                    <img src="https://images.unsplash.com/photo-1506501139174-099322fe521c?auto=format&fit=crop&w=400&h=300&q=80" alt="Photo urbaine" class="w-full h-48 object-cover">
+                    <div class="p-4">
+                        <h3 class="font-semibold text-lg text-gray-800">Exploration Urbaine</h3>
+                        <p class="text-gray-600 text-sm">La vie trépidante des villes.</p>
+                    </div>
+                </div>
+                <div class="portfolio-item bg-white rounded-lg shadow-lg overflow-hidden transform hover:scale-105 transition-transform duration-300">
+                    <img src="https://images.unsplash.com/photo-1502675135487-e971002a6a6c?auto=format&fit=crop&w=400&h=300&q=80" alt="Photo culinaire" class="w-full h-48 object-cover">
+                    <div class="p-4">
+                        <h3 class="font-semibold text-lg text-gray-800">Art Culinaire</h3>
+                        <p class="text-gray-600 text-sm">Quand la nourriture devient art.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="bg-gray-800 text-white py-6 mt-8">
+        <div class="container mx-auto px-4 text-center">
+            <p>&copy; 2023 Photographe. Tous droits réservés.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
