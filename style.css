@@ -1,0 +1,20 @@
+/* Fichier CSS personnalisé pour des styles spécifiques */
+
+/* Vous pouvez ajouter ici des styles qui ne sont pas facilement réalisables avec Tailwind ou pour des overrides spécifiques. */
+/* Exemple : animations personnalisées, polices importées, etc. */
+
+body {
+    font-family: 'Inter', sans-serif; /* Exemple d'utilisation d'une police */
+}
+
+.hero {
+    background-image: url('https://images.unsplash.com/photo-1582220478065-276701556094?auto=format&fit=crop&w=1920&q=80'); /* Image de fond pour le hero */
+    background-size: cover;
+    background-position: center;
+    color: white;
+    text-shadow: 2px 2px 4px rgba(0,0,0,0.5);
+}
+
+.hero h1, .hero p {
+    color: white;
+}
